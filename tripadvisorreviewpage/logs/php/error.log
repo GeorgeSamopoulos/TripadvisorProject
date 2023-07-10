@@ -1,0 +1,37 @@
+[08-Jul-2023 19:13:21 UTC] Sync process for Gutenberg Blocks has started.
+[08-Jul-2023 19:13:21 UTC] CATEGORY:Importing categories..
+[08-Jul-2023 19:13:21 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[08-Jul-2023 19:13:21 UTC] CATEGORY:Completed category import.
+[08-Jul-2023 19:13:21 UTC] BLOCK: Getting Total Blocks
+[08-Jul-2023 19:13:21 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[08-Jul-2023 19:13:21 UTC] BLOCK: Requests count 4
+[08-Jul-2023 19:13:21 UTC] BLOCK: Importing request 1 ..
+[08-Jul-2023 19:13:21 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[08-Jul-2023 19:13:22 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[08-Jul-2023 19:13:22 UTC] BLOCK: Completed request 1
+[08-Jul-2023 19:13:22 UTC] BLOCK: Importing request 2 ..
+[08-Jul-2023 19:13:22 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[08-Jul-2023 19:13:22 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[08-Jul-2023 19:13:22 UTC] BLOCK: Completed request 2
+[08-Jul-2023 19:13:22 UTC] BLOCK: Importing request 3 ..
+[08-Jul-2023 19:13:22 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[08-Jul-2023 19:13:22 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[08-Jul-2023 19:13:22 UTC] BLOCK: Completed request 3
+[08-Jul-2023 19:13:22 UTC] BLOCK: Importing request 4 ..
+[08-Jul-2023 19:13:22 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[08-Jul-2023 19:13:22 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[08-Jul-2023 19:13:22 UTC] BLOCK: Completed request 4
+[08-Jul-2023 19:13:22 UTC] SITE: Getting Total Sites
+[08-Jul-2023 19:13:22 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[08-Jul-2023 19:13:22 UTC] SITE: Request count 2
+[08-Jul-2023 19:13:22 UTC] SITE: Importing request 1 ..
+[08-Jul-2023 19:13:22 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[08-Jul-2023 19:13:22 UTC] SITE: Storing in option ast-block-templates-sites-1
+[08-Jul-2023 19:13:22 UTC] SITE: Completed request 1
+[08-Jul-2023 19:13:22 UTC] SITE: Importing request 2 ..
+[08-Jul-2023 19:13:22 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[08-Jul-2023 19:13:23 UTC] SITE: Storing in option ast-block-templates-sites-2
+[08-Jul-2023 19:13:23 UTC] SITE: Completed request 2
+[08-Jul-2023 19:13:23 UTC] Sync process for Gutenberg Blocks is done.
+[08-Jul-2023 19:32:28 UTC] WordPress database error Table 'local.wp_wptripadvisor_post_templates' doesn't exist for query SELECT COUNT(*) FROM wp_wptripadvisor_post_templates WHERE template_type='widget' made by activate_plugin, plugin_sandbox_scrape, include_once('/plugins/wp-tripadvisor-review-slider/wp-tripadvisor-review-slider.php'), run_WP_TripAdvisor_Review, WP_TripAdvisor_Review->__construct, WP_TripAdvisor_Review->load_dependencies, require_once('/plugins/wp-tripadvisor-review-slider/public/class-wp-tripadvisor-review-slider-widget.php')
+[08-Jul-2023 19:33:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\odyss\Local Sites\tripadvisorreviewpage\app\public\wp-content\plugins\wp-tripadvisor-review-slider\admin\class-wp-tripadvisor-review-slider-admin.php on line 344
