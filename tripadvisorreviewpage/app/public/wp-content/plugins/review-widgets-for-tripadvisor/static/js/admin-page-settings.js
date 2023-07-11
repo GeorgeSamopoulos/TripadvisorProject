@@ -1,1 +1,0 @@
-jQuery(document).ready(function(){Trustindex_Autocomplete.checkRegex=/tripadvisor\.(?:[^/]+)\/([^_-]+[^\#\?]+)/gm});
